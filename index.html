@@ -425,6 +425,13 @@
                 </li>
               </ul>
             </div>
+            <div class="subsribe">
+              <h3 class="sub-title">Subsribe</h3>
+              <form><label ><input class="modal-input" type="text" name="user-email" placeholder="E-mail"></label>
+                <button class="btn sub-btn" type="submit">Subscribe</button>
+              </form>
+              
+            </div>
           </div>
         </div>
       </div>
@@ -436,26 +443,45 @@
             <use href="./images/icons/sprite-icons.svg#icon-close"></use>
           </svg>
         </button>
+        
         <div class="modal-content">
           <p class="modal-text">
             Leave your contacts and we will call you back
           </p>
-          <div class="modal-list">
-            <ul class="list">
-              <li class="modal-item">
-                <input class="input-item" type="tel" name="name" id="" />
-              </li>
-              <li class="modal-item">
-                <input class="input-item" type="tel" name="phone" id="" />
-              </li>
-              <li class="modal-item">
-                <input class="input-item" type="tel" name="email" id="" />
-              </li>
-              <li class="modal-item">
-                <input class="input-item" type="tel" name="comments" id="" />
-              </li>
-            </ul>
-          </div>
+          <form class="modal-form">
+            <label class="modal-label">
+              <span>Name</span>
+              <input
+                type="text"
+                name="name"
+                class="modal-input input-name"
+            /><svg class="modal-icon" width="18" height="18">
+                <use href="./images/icons/sprite-icons.svg#icon-person"></use>
+              </svg></label>
+            <label class="modal-label"> Phone
+              <input
+              type="tel"
+              name="phone"
+              class="modal-input"
+            /></label>
+            <div class="modal-field">
+              <label for="user-mail" class="modal-label input-text">Email</label>
+              <svg class="modal-icon" width="18" height="18">
+                <use href="./images/icons/sprite-icons.svg#icon-email"></use>
+              </svg><input
+                type="email"
+                id="user-mail"
+                name="email"
+                class="modal-input"
+              />
+              
+            </div>
+            <div class="">
+              <label for="">Comment</label>
+              <textarea class="modal-textarea" name="comment" id=""></textarea placeholder="Text input">
+            </div>
+            <button class="btn send-button" type="submit">Send</button>
+          </form>
 
           <div class="accept-wrap">
             <input class="input-check" type="checkbox" name="accept" id="" />
@@ -464,7 +490,6 @@
               <a href="#">Privacy Policy</a>
             </p>
           </div>
-          <button class="btn send-button" type="submit">Send</button>
         </div>
       </div>
     </div>
