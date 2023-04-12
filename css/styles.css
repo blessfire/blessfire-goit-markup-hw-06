@@ -552,7 +552,8 @@ img {
   gap: 16px;
   justify-content: center;
 }
-
+.sub-form {
+}
 .sub-title {
   font-weight: 500;
   font-size: 16px;
@@ -560,7 +561,27 @@ img {
   letter-spacing: 0.02em;
   color: var(--hero-text-color);
 }
+.sub-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  gap: 16px;
+  color: var(--hero-text-color);
+  background: var(--accent-color);
 
+  border: transparent;
+  border-radius: 4px;
+}
+.sub-btn:focus,
+.sub-btn:hover {
+  background: var(--primary-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.sub-icon {
+  fill: currentColor;
+}
 .backdrop {
   position: fixed;
   top: 0;
