@@ -501,8 +501,8 @@
               </svg>
             </div>
 
-            <div class="text-area-wrap">
-              <label class="modal-label" for="textarea">Comment</label>
+            <div class="modal-field">
+              <label class="modal-label" for="textarea">Comment </label>
               <textarea
                 class="modal-textarea modal-input"
                 name="comment"
@@ -511,22 +511,21 @@
               ></textarea>
             </div>
 
-            <input
-              class="input-check hidden-title"
-              type="checkbox"
-              name=""
-              id="accept"
-              value="true"
-            />
-            <label for="accept"
-              ><span class="icon-check"
+            <!-- <label for="accept"
+              ><input
+                class="input-check hidden-title"
+                type="checkbox"
+                name=""
+                id="accept"
+                value="true"
+              /><span class="icon-check"
                 ><svg class="icon-accept" width="10" height="8">
                   <use
                     href="./images/icons/sprite-icons.svg#icon-check"
                   ></use></svg
               ></span>
               Click <a href="">Privacy</a></label
-            >
+            > -->
 
             <label class="modal-accept" for="accept">
               <input
@@ -543,7 +542,7 @@
               ></span>
               <span class="accept-text"
                 >I accept the terms and conditions of the
-                <a href="#">Privacy Policy</a>
+                <a class="privacy-link" href="#">Privacy Policy</a>
               </span>
             </label>
             <button class="btn send-button" type="submit">Send</button>
