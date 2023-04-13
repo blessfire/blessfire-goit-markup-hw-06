@@ -511,19 +511,41 @@
               ></textarea>
             </div>
 
-            <div class="accept-wrap">
-              <label for="accept">
-                <input
-                  class="input-check"
-                  type="checkbox"
-                  name="accept"
-                  id="accept"
-              /></label>
-              <p class="accept-text">
-                I accept the terms and conditions of the
+            <input
+              class="input-check hidden-title"
+              type="checkbox"
+              name=""
+              id="accept"
+              value="true"
+            />
+            <label for="accept"
+              ><span class="icon-check"
+                ><svg class="icon-accept" width="10" height="8">
+                  <use
+                    href="./images/icons/sprite-icons.svg#icon-check"
+                  ></use></svg
+              ></span>
+              Click <a href="">Privacy</a></label
+            >
+
+            <label class="modal-accept" for="accept">
+              <input
+                class="input-check hidden-title"
+                type="checkbox"
+                name="accept"
+                id="accept"
+              />
+              <span class="icon-check"
+                ><svg class="icon-accept" width="10" height="8">
+                  <use
+                    href="./images/icons/sprite-icons.svg#icon-check"
+                  ></use></svg
+              ></span>
+              <span class="accept-text"
+                >I accept the terms and conditions of the
                 <a href="#">Privacy Policy</a>
-              </p>
-            </div>
+              </span>
+            </label>
             <button class="btn send-button" type="submit">Send</button>
           </form>
         </div>
