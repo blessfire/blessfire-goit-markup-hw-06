@@ -137,9 +137,23 @@ img {
   border-radius: 2px;
   background-color: var(--primary-color);
 }
-/* .box-contact{
+.nav-btn {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  color: var(--title-text-color);
 
-} */
+  background-color: transparent;
+}
+.nav-btn .icon-close {
+  display: none;
+}
+.nav-btn.is-open .icon-close {
+  display: block;
+}
+.nav-btn.is-open .icon-menu {
+  display: none;
+}
 .contact {
   font-style: normal;
   color: var(--primary-text-color);
@@ -298,7 +312,7 @@ img {
 .team-card-title {
   margin-bottom: 8px;
 }
-.team {
+.team.section {
   background-color: var(--team-color);
 }
 .team-list-item {

@@ -73,5 +73,8 @@
     <symbol id="icon-subscibe" viewBox="0 0 32 32">
 <path d="M32.021 2.668l-32.021 15.010 10.233 3.158 15.784-12.331-12.005 13.497 0.009 0.004-0.012-0.004v7.35l5.738-5.58 7.271 2.244 5.002-23.349z"></path>
 </symbol>
+<symbol id="icon-menu" viewBox="0 0 47 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.3636" d="M1.961 29.162h42.975M1.961 15.62h42.975M1.961 2.079h42.975"></path>
+</symbol>
   </defs>
 </svg>
